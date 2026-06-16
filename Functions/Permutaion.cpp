@@ -13,5 +13,5 @@ int main()
 {
     int n, r;
     cin >> n >> r;
-    cout << factorial(n) / ((factorial(n - r)) * factorial(r));
+    cout << factorial(n) / factorial(n - r);
 }
