@@ -10,5 +10,7 @@ int main()
         cout << val << " ";
     }
     cout << endl;
+
+    cout << d[2] << endl;
     return 0;
 }
